@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { Grid } from "semantic-ui-react";
 import LoadingComponent from "../../../App/Layout/loadingComponent";
 import { useStore } from "../../../App/stores/store";
+import ActivityFilters from "./ActivityFilters";
 import ActivityList from "./ActivityList";
 
 
@@ -30,7 +31,7 @@ import ActivityList from "./ActivityList";
                 {editMode &&
                 <ActivityForm
                  />} */}
-                 <h2>Activity Filters Component</h2>
+                 <ActivityFilters />
             </Grid.Column>
         </Grid>
     )
